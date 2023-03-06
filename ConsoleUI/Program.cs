@@ -39,6 +39,7 @@ public class Program
         output.Add(new PhysicalProductModel() { Title = "I am Abdul T-Shirt" });
         output.Add(new PhysicalProductModel() { Title = "Hard Drive" });
         output.Add(new DigitalProductModel() { Title = "MS Code Complete" });
+        output.Add(new CourseProductModel() { Title = ".Net Core Start to Finish" });
         return output;
     }
 }
